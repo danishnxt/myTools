@@ -1,1 +1,10 @@
 My Stuff for the stuff
+
+
+
+
+extensions
+
+jupyter labextension install @ryantam626/jupyterlab_sublime
+jupyter labextension install @aquirdturtle/collapsible_headings
+conda install -c conda-forge ipywidgets

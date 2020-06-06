@@ -1,0 +1,121 @@
+{
+    "shortcuts" : [
+        
+        // DanishNXT - 6.6.2020
+        // more human shortcuts...optional for aliens
+        // All only work in Command mode
+        
+        ////////////////////////////////////////////
+        // SHOW CELL OUTPUT -> O
+        
+        {
+            "command": "notebook:show-cell-outputs",
+            "keys": [
+                "O"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        
+        ////////////////////////////////////////////
+        // HIDE CELL OUTPUT -> K
+        
+        {
+            "command": "notebook:hide-cell-outputs",
+            "keys": [
+                "K"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },        
+        
+        
+        ////////////////////////////////////////////
+        // HIDE ALL CELL OUTPUTS -> CTRL K
+        
+        
+        {
+            "command": "notebook:hide-all-cell-outputs",
+            "keys": [
+                "Ctrl K"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        
+        ////////////////////////////////////////////
+        // CHANGE CELL TO CODE -> C
+        
+        {
+            "command": "notebook:change-cell-to-code",
+            "keys": [
+                "C"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        
+        ////////////////////////////////////////////
+        // MOVE CELL UP -> U
+        
+        {
+            "command": "notebook:move-cell-up",
+            "keys": [
+                "U"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+               
+        ////////////////////////////////////////////
+        // MOVE CELL DOWN -> D
+        
+        {
+            "command": "notebook:move-cell-down",
+            "keys": [
+                "D"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        
+        ////////////////////////////////////////////
+        // HIDE CELL CODE -> H
+        
+        {
+            "command": "notebook:hide-cell-code",
+            "keys": [
+                "H"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        
+        ////////////////////////////////////////////
+        // SHOW CELL CODE -> S
+        
+        {
+            "command": "notebook:show-cell-code",
+            "keys": [
+                "S"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        
+        ////////////////////////////////////////////
+        // RESTART AND CLEAR -> Shift C
+        
+        {
+            "command": "kernelmenu:restart-and-clear",
+            "keys": [
+                "Shift C"
+            ],
+            "selector": "[data-jp-kernel-user]:focus"
+        },
+        
+        ////////////////////////////////////////////
+        // RESTART AND RUN ALL -> Shift R
+        
+        {
+            "command": "kernelmenu:restart-and-run-all",
+            "keys": [
+                "Shift R"
+            ],
+            "selector": "[data-jp-kernel-user]:focus"
+        },
+               
+    ]
+}
